@@ -1,0 +1,1 @@
+docker run -p 8443:8443 -v "/Volumes/ssd/code:/code" -v "$(pwd):/app" -w "/app" taktahyl/code-server-net5 
